@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data & Models (용량이 크므로 제외)
+*.csv
+*.pkl
+*.ipynb_checkpoints
+models/*
+!models/.gitkeep
+
+# OS
+.DS_Store
